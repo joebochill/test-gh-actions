@@ -1,6 +1,11 @@
 name: label-pr
 run-name: Label PR as joebochill
-on: pull_request_target
+on: 
+  pull_request_target:
+  workflow_call:
+    secrets:
+      token:
+        required: true
 
 jobs:
   label:
