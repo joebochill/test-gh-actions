@@ -1,3 +1,5 @@
+name: label-issues
+run-name: Labeling Issue
 on:
   issues:
     types: [opened]
