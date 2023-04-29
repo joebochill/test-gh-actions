@@ -1,12 +1,11 @@
 name: label-master-pr
 run-name: Label Master PR as master
 on: 
-  pull_request:
+  pull_request_target:
     types:
       - opened
     branches:
       - 'master'
-      - 'joebochill:master'
 
 jobs:
   welcome:
