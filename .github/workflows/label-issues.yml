@@ -1,5 +1,5 @@
 name: label-issues
-run-name: Labeling Issue
+run-name: Labeling New Issue as Bug
 on:
   issues:
     types: [opened]
