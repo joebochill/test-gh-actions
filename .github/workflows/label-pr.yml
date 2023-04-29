@@ -1,9 +1,9 @@
 name: label-pr
-run-name: Label PR as documentation
+run-name: Label PR as joebochill
 on: pull_request_target
 
 jobs:
-  welcome:
+  label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v6
